@@ -1,3 +1,4 @@
+require('babel-polyfill');
 var hook = require('node-hook');
 
 hook.hook('.js', (src, name) => {

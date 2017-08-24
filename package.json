@@ -4,7 +4,9 @@
   "description": "Use ECMA6 import/export syntax from within NodeJS (simply require this module)",
   "main": "index.js",
   "dependencies": {
-    "node-hook": "^0.4.0"
+    "babel-polyfill": "^6.26.0",
+    "node-hook": "^0.4.0",
+    "underscore-node": "^0.1.2"
   },
   "devDependencies": {},
   "scripts": {
